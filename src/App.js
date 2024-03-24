@@ -72,7 +72,8 @@ export default function Game() {
     let description;
     if (move > 0) {
       description = 'Go to move #' + move;
-    } else {
+    }
+    else {
       description = 'Go to game start';
     }
     return (
